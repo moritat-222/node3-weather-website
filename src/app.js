@@ -67,10 +67,6 @@ app.get('/weather', (req, res) => {
   })
 })
 
-//geocode/forecast
-//error
-//use code to forecast
-
 
 app.get('/products', (req, res) => {
   if(!req.query.search){
